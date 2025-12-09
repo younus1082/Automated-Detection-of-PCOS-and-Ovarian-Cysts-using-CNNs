@@ -11,8 +11,6 @@ The model distinguishes between pathological conditions (like PCOS and Complex C
 
 <img width="701" height="365" alt="image" src="https://github.com/user-attachments/assets/004f6945-09a1-4b12-a881-b5d5916d63ab" />
 
-[Image of ultrasound ovarian cyst types]
-
 ### **1. Healthy Ovary**
 * **What it is:** Normal ovarian tissue with no abnormalities.
 * **Visuals:** Uniform gray texture. It may show small, transient follicles depending on the menstrual cycle phase, but lacks the specific patterns of cysts or PCOS.
