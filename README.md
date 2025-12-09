@@ -7,8 +7,32 @@ This project implements a Deep Learning solution to assist medical professionals
 
 The model distinguishes between pathological conditions (like PCOS and Complex Cysts) and normal biological states (Dominant Follicles), addressing a common challenge in manual ultrasound interpretation.
 
-## What is PCOS & Cyst
+## 📖 Medical Terms Explained (What the AI Sees)
+
 <img width="701" height="365" alt="image" src="https://github.com/user-attachments/assets/004f6945-09a1-4b12-a881-b5d5916d63ab" />
+
+[Image of ultrasound ovarian cyst types]
+
+### **1. Healthy Ovary**
+* **What it is:** Normal ovarian tissue with no abnormalities.
+* **Visuals:** Uniform gray texture. It may show small, transient follicles depending on the menstrual cycle phase, but lacks the specific patterns of cysts or PCOS.
+
+### **2. Dominant Follicle**
+* **What it is:** A *normal* physiological structure. Every month, one follicle grows larger than the others to release an egg (ovulation).
+* **Visuals:** A single, clear, black circle (fluid-filled) on the ultrasound.
+* **AI Challenge:** It looks very similar to a "Simple Cyst," making it the hardest class for AI (and humans) to distinguish.
+
+### **3. Simple Cyst**
+* **What it is:** A benign (harmless) fluid-filled sac that persists longer than a normal follicle.
+* **Visuals:** A large, perfectly round, black circle with thin, smooth walls. Unlike a follicle, it does not disappear after ovulation.
+
+### **4. Complex Cyst**
+* **What it is:** A cyst that is not just clear fluid. It may contain blood, solid tissue, or septations (walls inside). These are potentially pathological (tumors, endometriosis, or dermoids) and require close medical monitoring.
+* **Visuals:** A "messy" circle. Instead of being pure black, it has gray/white patches inside or irregular, thick borders.
+
+### **5. PCOS (Polycystic Ovary Syndrome)**
+* **What it is:** A hormonal disorder where the ovary develops many small, immature follicles that fail to release eggs.
+* **Visuals:** The **"String of Pearls"** sign. You see multiple tiny black circles (follicles) arranged in a ring around the edge of the swollen ovary. This pattern is visually distinct from a single large cyst.
 
 ## 🚀 Key Features
 * **High Accuracy:** Achieved **~99.5% accuracy** on the validation set.
