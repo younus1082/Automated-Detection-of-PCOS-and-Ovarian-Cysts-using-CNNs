@@ -7,6 +7,9 @@ This project implements a Deep Learning solution to assist medical professionals
 
 The model distinguishes between pathological conditions (like PCOS and Complex Cysts) and normal biological states (Dominant Follicles), addressing a common challenge in manual ultrasound interpretation.
 
+## What is PCOS & Cyst
+<img width="701" height="365" alt="image" src="https://github.com/user-attachments/assets/004f6945-09a1-4b12-a881-b5d5916d63ab" />
+
 ## 🚀 Key Features
 * **High Accuracy:** Achieved **~99.5% accuracy** on the validation set.
 * **Multi-Class Diagnosis:** Detects 5 specific classes: `PCOS`, `Complex Cyst`, `Simple Cyst`, `Dominant Follicle`, and `Healthy Ovary`.
